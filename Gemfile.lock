@@ -69,6 +69,13 @@ GEM
       activesupport (= 3.2.3)
       bundler (~> 1.0)
       railties (= 3.2.3)
+    rails-sandbox-assets (0.0.4)
+      rails (~> 3.1)
+    rails_sandbox_jasmine (0.0.3)
+      rails-sandbox-assets (>= 0.0.4)
+    rails_sandbox_mocha_chai (0.0.1)
+      jquery-rails
+      rails-sandbox-assets (>= 0.0.4)
     railties (3.2.3)
       actionpack (= 3.2.3)
       activesupport (= 3.2.3)
@@ -105,5 +112,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.3)
+  rails_sandbox_jasmine
+  rails_sandbox_mocha_chai
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
